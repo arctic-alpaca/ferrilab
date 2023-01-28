@@ -42,5 +42,5 @@ pub trait Atomic: Copy + Sealed {
 /// codebase isn’t a perfect reflection of biology and physics.
 pub trait Nuclear: Copy + Sealed {
 	/// The `RadiumT` type corresponding to `Self`.
-	type Nucleus: Radium<Item = Self> + Send;
+	type Nucleus: Radium<Item = Self>;
 }
