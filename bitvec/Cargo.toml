@@ -57,7 +57,7 @@ testing = [
 ]
 
 [dependencies]
-radium = "0.7"
+radium = {git = "https://github.com/arctic-alpaca/ferrilab"}
 tap = "1"
 
 [dependencies.funty]
